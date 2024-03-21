@@ -1,0 +1,94 @@
+{
+    "projects": [
+        {
+            "id": "TheArtOfLego",
+            "title": "The Art of Lego",
+            "description": "A React application that helps the user add the Lego sets in their list. Also, it is possible to find a Lego Set with the number on the box or by name.",
+            "testUsername": "testUser",
+            "testPassword": "password",
+            "languages": [
+                {
+                    "name": "REACT",
+                    "icon": "devicon-react-original"
+                },
+                {
+                    "name": "JAVASCRIPT",
+                    "icon": "devicon-javascript-plain"
+                },
+                {
+                    "name": "POSTGRESQL",
+                    "icon": "devicon-postgresql-plain"
+                }
+            ],
+            "hrefCode": "https://github.com/OlgaAlessia/Capstone-2.git",
+            "hrefRender": "https://lego-frontend.onrender.com/",
+            "imgSrc": "ThumbnailCapstone2.png"
+        },
+        {
+            "id": "FrankMemorial",
+            "title": "Frank Memorial Web Page",
+            "description": "Created memorial webpage for a 65'' vertical touch screen with interactive gallery system allowing visitors to zoom in on photos and send them to designated email addresses. It was display at the Bini Bash 2023.",
+            "languages": [
+                {
+                    "name": "HTML",
+                    "icon": "devicon-html5-plain"
+                },
+                {
+                    "name": "CSS",
+                    "icon": "devicon-css3-plain"
+                },
+                {
+                    "name": "JAVASCRIPT",
+                    "icon": "devicon-javascript-plain"
+                }
+            ],
+            "testUsername": "",
+            "testPassword": "",
+            "hrefCode": "",
+            "hrefRender": "https://frankjprovenzano.com/",
+            "imgSrc": "ThumbnailFrankProject.png"
+        }
+    ],
+    "education": [
+        {
+            "id": "bootcamp",
+            "title": "Software Engineering Bootcamp",
+            "period": "Jun 2023 - Mar 2024",
+            "location": "Springboard in USA",
+            "info": "700-hour course that covers key aspects of frontend, backend, or full stack web development, including database management, working with APIs, and data structures and algorithms.",
+            "certificate": "https://www.credential.net/9660ebba-78aa-4843-b577-e8ec76e8d94f#gs.651jsj"
+        },
+        {
+            "id": "training",
+            "title": "Java Full Stack Training",
+            "period": "Sep 2022 - Oct 2022",
+            "location": "Emonics Academy in USA",
+            "info": "306 hours of training. Java Fundamentals, MySQL, Spring Boot. Web application development with Eclipse. ",
+            "certificate": "https://drive.google.com/file/d/1TkW8pbrnAL4VjgxCROGAcnnKo8KkNCdy/view?usp=drive_link"
+        },
+        {
+            "id": "course",
+            "title": "Software Development Technical Course",
+            "period": "Nov 2018 - Jul 2019",
+            "location": "ENGIM in Italy",
+            "info": "Development of web pages. HTML 5, CSS 3, Java, JavaScript, Bootstrap, Angular 2, PHP and DBMS environments. Web application development with Visual Studio Code and NetBeans. <br/> 1000 hours included 300 hours of internships at the <a href='#quattrolinee'>Quattrolinee</a> company.",
+            "certificate": ""
+        },
+        {
+            "id": "bachelor",
+            "title": "Bachelor Of Science in Computer Science",
+            "period": "Oct 2011",
+            "location": "University of Turin, Italy",
+            "info": " Thesis title: Emeroteca Virtuale - <a href='https://www.youtube.com/watch?v=wBCDrYFI49k/' target='_blank'>Watch the video</a> and go at (1:45). <br/> Academic achievements: Developed C# skill while developing front end application on Microsoft Surface.",
+            "certificate": ""
+        },
+        {
+            "id": "diploma",
+            "title": "High School Diploma in Computer Science",
+            "period": "Jul 2005",
+            "location": "ITIS Ettore Majorana, Grugliasco (Italy)",
+            "info": "",
+            "certificate": ""
+        }
+    ]
+}

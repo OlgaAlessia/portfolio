@@ -1,0 +1,106 @@
+header {
+    position:sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+.navbar {
+    background-color: #10222e;
+    position: relative;
+    height: 80px;
+}
+
+.imgLogo {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    height: 70px;
+}
+
+.menu-icon {
+    display: none;
+    
+}
+
+.nav-elements ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav-elements ul li:not(:last-child) {
+    margin-right: 2rem;
+}
+
+.nav-elements ul li a {
+    font-size: 25px;
+    font-weight: 400;
+    color: #ebe8d9;
+    text-decoration: none;
+}
+
+.nav-elements ul li a:hover {
+    color: #4c8f93;
+}
+
+
+.nav-elements ul li a.active {
+    color: gold;
+    font-weight: 500;
+    position: relative;
+}
+
+
+/*If [device width] is less than or equal to 670px */
+
+
+@media (max-width: 768px) {
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        transition: all 0.3;
+    }
+
+    .nav-elements {
+        position: absolute;
+        right: 0;
+        top: 80px;
+        background-color: #10222e;
+        width: 0px;
+        height: calc(100vh - 80px);
+        transition: all 0.3s ease-in;
+        overflow: hidden;
+    }
+
+    .nav-elements.show {
+        width: 100%;
+    }
+
+    .nav-elements ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-elements ul li {
+        margin-right: unset;
+        margin-top: 22px;
+    }
+
+    .nav-elements ul li a {
+        font-size: 25px;
+    }
+}
+@media (min-width: 768px) and (max-width: 856px) {
+    .nav-elements ul li a {
+        font-size: 20px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .imgLogo {
+        height: 70px;
+    }
+}

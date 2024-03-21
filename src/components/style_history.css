@@ -1,0 +1,155 @@
+
+.experiences, .educations {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.div-experience, .div-education {
+    margin: 0px;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    flex: 1 1 0%;
+    text-align: left;
+    padding: 12px 16px;
+    color: #f2f3f4ef;
+
+}
+
+.box-experience, .box-education {
+    background-color: #070707;
+    width: 700px;
+    border-radius: 10px;
+    box-shadow: #00464b 0px 0px 10px;
+    padding: 12px 16px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transition: all 0.3s ease-in-out 0s;
+    border: 0.1px solid #005F65;
+}
+
+
+.box-experience:hover .job-info, .box-education:hover .education-info {
+    overflow: visible;
+    -webkit-line-clamp: unset;
+}
+
+
+.company-line, .education-line {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.company-title, .education-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.period {
+    font-size: 13px;
+    font-weight: 400;
+    color: #b1b2b3ce;
+    text-align: right;
+}
+
+.company-name, .education-location {
+    font-size: 16px;
+    font-weight: 500;
+    color: #4c8f93;
+    text-align: left;
+}
+
+
+.rivela {
+    overflow: hidden;
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+
+
+.company-info, .education-info {
+    width: 100%;
+    gap: 12px;
+}
+
+.education-info a {
+    text-decoration: underline;
+}
+
+.job-description {
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    color: #f2f3f4e1;
+    margin-bottom: 10px;
+}
+
+
+.skills {
+    width: 100%;
+    display: flex;
+    gap: 12px;
+    margin-top: -10px;
+    color: #4c8f93;
+}
+
+.div-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    color: #f2f3f4e1;
+}
+
+
+.btn-certificate {
+    background-color: #005F65;
+    color: #c2c2c2;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+}
+
+.btn-certificate:hover {
+    color: #fff;
+    border-color: #4c8f93;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .box-experience, .box-education {
+        padding: 7px;
+        gap: 8px;
+        width: auto;
+    }
+    .div-education {
+        width: 100%;
+    }
+
+    .job-description, .education-description {
+        font-size: 12px;
+    }
+
+    .company-title, .education-title {
+        font-size: 16px;
+    }
+
+    .company-name, .education-location {
+        font-size: 14px;
+    }
+
+}

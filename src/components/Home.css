@@ -1,0 +1,35 @@
+.btn-hireme,
+.btn-resume {
+    background-color: #004246;
+    color: #c2c2c2;
+    padding: 0.5rem 1rem;
+}
+
+.btn-hireme:hover,
+.btn-resume:hover {
+    color: #fff;
+    border-color: #4c8f93;
+}
+
+.btn-hireme {
+    margin-right: 2rem;
+}
+
+
+.myImg {
+    border-radius: 50px;
+    height: 450px;
+    width: auto;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (max-width: 650px) {
+    .myImg {
+        height: 350px;
+    }
+}
