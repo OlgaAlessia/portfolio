@@ -6,6 +6,8 @@ import "./Projects.css";
 function Projects() {
     const [projects, setProjects] = useState([]);
 
+    const basicUrl = "../images/";
+
     useEffect(() => {
         const loadData = JSON.parse(JSON.stringify(jsonData.projects));
         setProjects(loadData);
@@ -29,7 +31,7 @@ function Projects() {
                         languages={project.languages}
                         hrefCode={project.hrefCode}
                         hrefRender={project.hrefRender}
-                        imgSrc={project.imgSrc}
+                        imgSrc={basicUrl + project.imgSrc}
                     />
                 ))}
             </div>

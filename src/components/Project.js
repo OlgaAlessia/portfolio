@@ -1,6 +1,5 @@
 import React from "react";
 import "./Projects.css";
-import getImageURL from "../common/image-util"
 
 import { faEye } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -33,7 +32,7 @@ function Project(props) {
                     ))}
                 </div>
 
-                <div>
+                <div className="buttons">
                     {props.hrefRender ? (
                         <a target="_blank" rel="noopener noreferrer" href={props.hrefRender} className="btn btn-live">
                             <FontAwesomeIcon icon={faEye} />
@@ -49,12 +48,11 @@ function Project(props) {
                 </div>
             </div>
             <div className="card__img">
-                <img src={getImageURL(props.imgSrc)} alt="Thumbnail" />
+                <img src={props.imgSrc} alt="Thumbnail" />
             </div>
         </div>
 
     );
 }
 
-//href={require(props.certificate)}
 export default Project;
