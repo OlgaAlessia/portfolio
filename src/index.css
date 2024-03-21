@@ -13,11 +13,13 @@ body {
 
   background: url("../public/background.jpg");
   background-attachment: fixed;
-  background-position: 50%;
+  background-position: 30%;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #09090a;
+
   font-family: Poppins, sans-serif;
-  color:  #fff;;
+  color:  #fff;
   line-height: 1.6;
 }
 
