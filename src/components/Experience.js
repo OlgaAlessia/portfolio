@@ -11,9 +11,9 @@ function Experience() {
                 <h2>Work Experience</h2>
             </div>
             <p>
-                In my professional journey I faced challenges that have contributed to my personal growth and development.  
-                I have learned valuable lessons in resilience, problem-solving, communication, and leadership, which have shaped me 
-                into a more confident and capable professional. 
+                In my professional journey I faced challenges that have contributed to my personal growth and development.
+                I have learned valuable lessons in resilience, problem-solving, communication, and leadership, which have shaped me
+                into a more confident and capable professional.
                 I am grateful for the challenges that have tested my abilities and allowed me to grow and succeed in my career.
             </p>
             <div className="experiences">
@@ -22,7 +22,7 @@ function Experience() {
                         <div className="company-info">
                             <div className="company-line">
                                 <div className="company-title">Developer - Part-Time </div>
-                                <div className="period">Jan 2023 - Dic 2023</div>
+                                <div className="period">Jan 2023 - Dec 2023</div>
                             </div>
                             <div className="company-name">Merge in New York</div>
                         </div>
@@ -40,13 +40,14 @@ function Experience() {
                                 <div className="div-skills">
                                     <div className="skill">• HTML</div>
                                     <div className="skill">• CSS</div>
-                                    <div className="skill">• Javascript</div>
+                                    <div className="skill">• JavaScript</div>
                                     <div className="skill">• Microsoft Excel</div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div className="div-experience">
                     <div className="box-experience" >
                         <div className="company-info">
@@ -81,6 +82,7 @@ function Experience() {
                         </div>
                     </div>
                 </div>
+
                 <div className="div-experience">
                     <div className="box-experience" >
                         <div className="company-info">
@@ -111,7 +113,7 @@ function Experience() {
                                     <div className="skill">• BP development</div>
                                     <div className="skill">• SQL </div>
                                     <div className="skill">• Teamwork</div>
-                                    <div className="skill">• Comunication</div>
+                                    <div className="skill">• Communication</div>
                                 </div>
                             </div>
                         </div>
@@ -135,12 +137,11 @@ function Experience() {
                                 Updated and completed other clients' web pages, ensuring engaging user experience, accuracy, and relevance of information.
                                 In addition to that I monitored and manipulated data using the Firebase and Vue.js framework for the annual contest
                                 event, assured that admin had access to relevant and attractive content.
-
                             </span>
                             <br />
                             <div className="skills"><b>Skills:</b>
                                 <div className="div-skills">
-                                    <div className="skill">• Wordpress</div>
+                                    <div className="skill">• WordPress</div>
                                     <div className="skill">• HTML</div>
                                     <div className="skill">• CSS</div>
                                     <div className="skill">• JavaScript</div>
@@ -151,6 +152,7 @@ function Experience() {
                         </div>
                     </div>
                 </div>
+                
                 <div className="div-experience">
                     <div className="box-experience" >
                         <div className="company-info">
@@ -194,7 +196,7 @@ function Experience() {
                         <div className="job-description">
                             <span className="job-info rivela">
                                 Used Tagetik (Corporate Performance Management Software) for monitoring and managing their finances.
-                                In addition I helped the client obtain the reports templates in Microsoft Excel.
+                                In addition, I helped the client obtain the reports templates in Microsoft Excel.
                             </span>
                             <br />
                             <div className="skills"><b>Skills:</b>

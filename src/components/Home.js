@@ -11,7 +11,7 @@ function Home() {
 
     useEffect(() => {
         const typed = new Typed(el.current, {
-            strings: ['Olga Quaranta', 'Software Engineer.', 'Web Developer.'],
+            strings: ['Olga Quaranta', 'a Software Engineer', 'a Web Developer'],
             typeSpeed: 80,
             backSpeed: 80,
             loop: true
