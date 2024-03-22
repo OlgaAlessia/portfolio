@@ -63,8 +63,6 @@ function Experience() {
                                 Conducted in-depth analysis of EDI file movements from origin to destination, developing customized and highly optimized.
                                 Trading Partner EDI maps.
                                 In addition to gather and analyzing data, using SQL, I oversaw creating and/or modifying of DB data.
-                                Collaborated closely with cross-functional IT teams, building strong relationships,
-                                and driving alignment to achieve targeted results and maximize organizational effectiveness.
                                 Furthermore, I managed a team of 5 people, empowering them with my manual, reducing the resolution times of EDI issues.
                             </span>
                             <br />
@@ -101,7 +99,6 @@ function Experience() {
                                 retransmitted them correctly.
                                 In addition to tracked files from origin to destination, I developed and executed strategies to change maps,
                                 ensuring seamless and error-free data flow, optimizing the overall workflow, and guaranteed accuracy and integrity.
-
                             </span>
                             <br />
                             <div className="skills"><b>Skills:</b>
