@@ -85,18 +85,17 @@ function Experience() {
                     <div className="box-experience" >
                         <div className="company-info">
                             <div className="company-line">
-                                <div className="company-title">Help Desk Support</div>
+                                <div className="company-title">Help Desk IT EDI Support</div>
                                 <div className="period">Feb 2020 - Dec 2020</div>
                             </div>
                             <div className="company-name">Certimeter S.R.L in Italy</div>
                         </div>
                         <div className="job-description">
                             <span className="job-info rivela">
-                                Consultant for Arcese Trasporti S.P.A. and part of the EDI Support team. <br />
-                                Enhanced operatives' client proficiency in internal applications usage through online
-                                and telephone desk support across Europe.
-                                To prevented ticket escalation, I intercepted and meticulously modified files with anomalies from trading partners,
-                                retransmitted them correctly.
+                                Consultant for Arcese Trasporti S.P.A.<br />
+                                Enhanced operatives' client proficiency in internal applications usage through online and telephone desk support across Europe.
+                                To prevent ticket escalation and boost operational efficiency, I intercepted and meticulously modified files with anomalies 
+                                from trading partners, retransmitted them correctly.
                                 In addition to tracked files from origin to destination, I developed and executed strategies to change maps,
                                 ensuring seamless and error-free data flow, optimizing the overall workflow, and guaranteed accuracy and integrity.
                             </span>
@@ -192,6 +191,7 @@ function Experience() {
                         </div>
                         <div className="job-description">
                             <span className="job-info rivela">
+                                Consultant at DeAgostini<br />
                                 Used Tagetik (Corporate Performance Management Software) for monitoring and managing their finances.
                                 In addition, I helped the client obtain the reports templates in Microsoft Excel.
                             </span>
