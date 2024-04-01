@@ -40,7 +40,7 @@ function Educations() {
 
             <br /><br />
             <div className="title">
-                <h2>Volunteer Experience</h2>
+                <h2>Volunteering</h2>
             </div>
             <p>
                 As a volunteer, I improved soft skills in a practical setting, and I am helping the community.

@@ -14,19 +14,15 @@
         {
             "id": "WhatSCooking",
             "title": "What's cooking",
-            "description": "This Flask-based application allows the users to fine recipe with the food that maybe is at house. Users can add a recipe in their favorite list to easily access and use recipes later. In addition, they can save, edit and delete the recipes they create. Based on the recipes saved, the home page will show suggested recipies.",
+            "description": "This Flask-based application allows the users to find recipes with the food that maybe is at house using APi. Users can add a recipe in their favorite list to easily access and use recipes later. In addition, they can save, edit and delete the recipes they create. Based on the recipes saved, the home page will show suggested recipies.",
             "languages": [
-                {
-                    "name": "FLASK",
-                    "icon": "devicon-flask-original"
-                },
-                {
-                    "name": "NODEJS",
-                    "icon": "devicon-nodejs-plain"
-                },
                 {
                     "name": "PYTHON",
                     "icon": "devicon-python-plain"
+                },
+                {
+                    "name": "FLASK",
+                    "icon": "devicon-flask-original"
                 },
                 {
                     "name": "POSTGRESQL",

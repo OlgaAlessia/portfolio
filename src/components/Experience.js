@@ -8,7 +8,7 @@ function Experience() {
         <section id="experience" className="section">
 
             <div className="title">
-                <h2>Work Experience</h2>
+                <h2>Experience</h2>
             </div>
             <p>
                 In my professional journey I faced challenges that have contributed to my personal growth and development.
@@ -17,6 +17,43 @@ function Experience() {
                 I am grateful for the challenges that have tested my abilities and allowed me to grow and succeed in my career.
             </p>
             <div className="experiences">
+
+                <div className="div-experience">
+                    <div className="box-experience" >
+                        <div className="company-info">
+                            <div className="company-line">
+                                <div className="company-title">Software Engineering Trainee</div>
+                                <div className="period">Jun 2023 - Mar 2024</div>
+                            </div>
+                            <div className="company-name">Springboard</div>
+                        </div>
+                        <div className="job-description">
+                            <span className="job-info rivela">
+                                Successfully completed 800+ hours of rigorous software engineering training, mastering essential programming languages and techniques under the mentorship of industry experts, and delivering two comprehensive capstone projects covering frontend, backend, and full-stack development.
+                                Created a Flask-based application, using Spoonacular API to retrieve recipes and enabling users to find, save, edit, and delete recipes saved in their favorite.
+                                In addition, developed a user-friendly React API Project for saving and searching Lego sets, showcasing proficiency in HTML, CSS, JavaScript, React, and PostgreSQL, enhancing user engagement and accessibility.
+                            </span>
+                            <br />
+                            <div className="skills"><b>Skills:</b>
+                                <div className="div-skills">
+                                    <div className="skill">• HTML</div>
+                                    <div className="skill">• CSS</div>
+                                    <div className="skill">• JavaScript</div>
+                                    <div className="skill">• PostgreSQL</div>
+                                    <div className="skill">• JQuery</div>
+                                    <div className="skill">• Python</div>
+                                    <div className="skill">• RestAPI</div>
+                                    <div className="skill">• Flask</div>
+                                    <div className="skill">• Node.js</div>
+                                    <div className="skill">• React.js</div>
+                                    <div className="skill">• Git</div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div className="div-experience">
                     <div className="box-experience" >
                         <div className="company-info">
@@ -68,13 +105,15 @@ function Experience() {
                             <br />
                             <div className="skills"><b>Skills:</b>
                                 <div className="div-skills">
-                                    <div className="skill">• Client's Program</div>
-                                    <div className="skill">• IBM Sterling console management </div>
-                                    <div className="skill">• Mapping</div>
-                                    <div className="skill">• BP development</div>
-                                    <div className="skill">• SQL </div>
+                                    <div className="skill">• Attention to Detail</div>
+                                    <div className="skill">• SQL</div>
+                                    <div className="skill">• Microsoft Excel</div>
+                                    <div className="skill">• Sterling console management</div>
+                                    <div className="skill">• Mapping and BP development</div>
+                                    <div className="skill">• Communication</div>
                                     <div className="skill">• Teamwork</div>
-                                    <div className="skill">• EDI Helpdesk support</div>
+                                    <div className="skill">• Team Leadership</div>
+                                    <div className="skill">• Customer Service</div>
                                 </div>
                             </div>
                         </div>
@@ -94,7 +133,7 @@ function Experience() {
                             <span className="job-info rivela">
                                 Consultant for Arcese Trasporti S.P.A.<br />
                                 Enhanced operatives' client proficiency in internal applications usage through online and telephone desk support across Europe.
-                                To prevent ticket escalation and boost operational efficiency, I intercepted and meticulously modified files with anomalies 
+                                To prevent ticket escalation and boost operational efficiency, I intercepted and meticulously modified files with anomalies
                                 from trading partners, retransmitted them correctly.
                                 In addition to tracked files from origin to destination, I developed and executed strategies to change maps,
                                 ensuring seamless and error-free data flow, optimizing the overall workflow, and guaranteed accuracy and integrity.
@@ -102,11 +141,10 @@ function Experience() {
                             <br />
                             <div className="skills"><b>Skills:</b>
                                 <div className="div-skills">
-                                    <div className="skill">• EDI Helpdesk support</div>
-                                    <div className="skill">• Client's Program</div>
+                                    <div className="skill">• Customer Service</div>
+                                    <div className="skill">• Mapping and BP development</div>
                                     <div className="skill">• IBM Sterling console management </div>
-                                    <div className="skill">• Mapping</div>
-                                    <div className="skill">• BP development</div>
+                                    <div className="skill">• Microsoft Excel</div>
                                     <div className="skill">• SQL </div>
                                     <div className="skill">• Teamwork</div>
                                     <div className="skill">• Communication</div>
@@ -148,7 +186,7 @@ function Experience() {
                         </div>
                     </div>
                 </div>
-                
+
                 <div className="div-experience">
                     <div className="box-experience" >
                         <div className="company-info">
